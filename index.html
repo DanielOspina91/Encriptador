@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <img src="Style/Logo.png" alt="Logo Alura Latam">
+    </header>
+    <main class="main">
+        <div class="Interfaz_Principal">
+            <div class="Texto_entrada"> 
+                <textarea oninput="mostrarBotonCopiar()" class="Texto_entrada_input" placeholder="Ingrese texto Aquí" onfocus="borrarPlaceholder()" onblur="restaurarPlaceholder()" id="Texto_entrada_input"></textarea>
+            </div>
+            <div class="Espacio_botones_con_validacion">
+                <p class="texto_validacion"> <img src="Style/bi_exclamation-circle-fill.png" alt="Simbolo alerta">
+                    Solo letras minúsculas y sin acentos</p>
+            <div class="Espacio_botones">
+                <button class="boton_encriptar" id="encriptarTexto">Encriptar</button>
+                <button class="boton_desencriptar" id="desencriptarTexto"  >Desencriptar</button>
+            </div>
+            </div>
+        </div>
+        <div class="display" id="display">
+            <img class="imagen_png" src="Style/Muñeco.png" alt="Person Buscando" id="imagen_display">
+            <div class="mensajes_zona_display">
+                <h1 id="mensaje_no_texto" class="mensaje_no_texto">Ningún mensaje fue encontrado</h1>
+                <p id="Instruccion" class="Instruccion">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <p id="texto_mostrado" class="texto_mostrado"></p> <!-- Elemento para mostrar el texto -->
+                
+            </div>
+            <div class="boton_copiar_div">
+            <button class="boton_copiar" id="boton_copiar">Copiar</button>
+        </div>
+        </div>
+    </main>
+    <footer></footer> 
+    <script src="app.js"></script>
+    
+  
+    
+</body>
+</html>
