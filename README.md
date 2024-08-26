@@ -3,7 +3,7 @@
 :hammer:el proyecto toma un texto introducido por el usario y lo encripta utilizando una norma establecida, tambien puede desencriptarse
 
 
-![Imagen tecnologias usadas](https://github.com/user-attachments/assets/5a6c74fe-9661-49bb-ac2d-ad7b0e3b57bc)
+TECNOLOGIAS USADAS
 -JS
 -CSS
 -HTML
